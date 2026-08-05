@@ -36,19 +36,7 @@ if (closeBtn) {
         modal.classList.remove("active");
     };
 }
-document.querySelector(".close-project").onclick=()=>{
 
-modal.classList.remove("active");
-}
-modal.onclick=(e)=>{
-
-if(e.target==modal){
-
-modal.classList.remove("active");
-
-}
-
-}
 //==============================
 // BURGER MENU
 //==============================
