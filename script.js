@@ -36,7 +36,7 @@ if (closeBtn) {
         modal.classList.remove("active");
     };
 }
-document.querySelector(".close-projact").onclick=()=>{
+document.querySelector(".close-project").onclick=()=>{
 
 modal.classList.remove("active");
 }
