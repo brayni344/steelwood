@@ -1760,3 +1760,449 @@ MOBILE ADAPTIVE
 }
 
 }
+/* ==================================================
+MOBILE CONTENT
+================================================== */
+
+@media (max-width:768px){
+
+/* ---------- SERVICES ---------- */
+
+.services{
+
+    padding:70px 0;
+
+}
+
+.services-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+
+}
+
+.service-card{
+
+    padding:25px;
+
+}
+
+.service-card h3{
+
+    font-size:24px;
+
+}
+
+.service-card p{
+
+    font-size:16px;
+
+    line-height:1.7;
+
+}
+
+/* ---------- PROJECTS ---------- */
+
+.project-item,
+.project-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding:20px;
+
+}
+
+.project-photo,
+.project-image{
+
+    width:100%;
+
+    height:220px;
+
+}
+
+.project-photo img,
+.project-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.project-text h3,
+.project-content h3{
+
+    font-size:24px;
+
+}
+
+.project-text p,
+.project-content p{
+
+    font-size:16px;
+
+}
+
+.project-data,
+.project-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+.project-text .btn-orange,
+.project-content .btn-orange{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+/* ---------- CONTACTS ---------- */
+
+.contacts-page .container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+.contacts-right{
+
+    padding:25px;
+
+}
+
+.contacts-right input,
+.contacts-right textarea,
+.contacts-right select{
+
+    font-size:16px;
+
+}
+
+.contacts-right button{
+
+    width:100%;
+
+}
+
+/* ---------- FOOTER ---------- */
+
+.footer-grid{
+
+    display:flex;
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:30px;
+
+}
+
+.footer-logo{
+
+    margin:auto;
+
+}
+
+}
+/* ==================================================
+MOBILE MODALS
+================================================== */
+
+@media (max-width:768px){
+
+/* ---------- Главная ---------- */
+
+.project-modal{
+
+    padding:15px;
+
+    align-items:center;
+
+}
+
+.project-window{
+
+    width:100%;
+
+    max-width:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}
+
+.project-window-image{
+
+    width:100%;
+
+}
+
+.project-window-image img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.project-window-text{
+
+    padding:20px;
+
+}
+
+.project-window-text h2{
+
+    font-size:26px;
+
+    line-height:1.3;
+
+    margin-bottom:15px;
+
+}
+
+.project-window-text p{
+
+    font-size:16px;
+
+    line-height:1.7;
+
+}
+
+.project-window-text ul{
+
+    padding-left:18px;
+
+    margin:20px 0;
+
+}
+
+.project-window .btn-orange{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+/* крестик */
+
+.close-project{
+
+    position:absolute;
+
+    top:15px;
+
+    right:15px;
+
+    font-size:34px;
+
+    z-index:1000;
+
+}
+
+/* ---------- Страница проектов ---------- */
+
+.modal-content{
+
+    width:100%;
+
+    max-width:100%;
+
+    padding:20px;
+
+    border-radius:18px;
+
+}
+
+.modal-image img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.modal-text h2{
+
+    font-size:26px;
+
+    line-height:1.3;
+
+}
+
+.modal-text p{
+
+    font-size:16px;
+
+    line-height:1.7;
+
+}
+
+.modal-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+    margin:20px 0;
+
+}
+
+.modal-text .btn-orange{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.close-modal{
+
+    position:absolute;
+
+    top:15px;
+
+    right:15px;
+
+    font-size:34px;
+
+    z-index:1000;
+
+}
+
+}
+/* ==========================================
+FINAL MOBILE FIX
+========================================== */
+
+@media (max-width:768px){
+
+/* Общие */
+
+body{
+    overflow-x:hidden;
+}
+
+.container{
+    width:94%;
+}
+
+/* Кнопки */
+
+.btn-orange,
+.btn-dark{
+    width:100%;
+    text-align:center;
+    padding:15px 20px;
+}
+
+/* Заголовки */
+
+h1{
+    font-size:34px !important;
+}
+
+h2{
+    font-size:28px !important;
+}
+
+h3{
+    font-size:22px !important;
+}
+
+p{
+    font-size:16px !important;
+    line-height:1.7;
+}
+
+/* Все карточки */
+
+.service-card,
+.project-item,
+.project-card,
+.contact-card,
+.stat-card{
+
+    width:100%;
+
+    padding:20px;
+
+    border-radius:18px;
+
+}
+
+/* Картинки */
+
+.about-image img,
+.project-photo img,
+.project-image img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+/* Формы */
+
+input,
+textarea,
+select{
+
+    width:100%;
+
+    font-size:16px;
+
+}
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+
+}
+
+.footer-logo{
+
+    margin:auto;
+
+}
+
+}
