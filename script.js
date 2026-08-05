@@ -211,3 +211,4 @@ lightbox.classList.remove("active");
 }
 
 }
+
