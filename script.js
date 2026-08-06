@@ -1,3 +1,36 @@
+//==============================
+// BURGER MENU
+//==============================
+document.addEventListener("DOMContentLoaded", () => {
+
+    const burger = document.querySelector(".burger");
+    const menu = document.querySelector(".menu");
+
+    if (burger && menu) {
+
+        burger.addEventListener("click", () => {
+
+            burger.classList.toggle("active");
+            menu.classList.toggle("active");
+
+        });
+
+        document.querySelectorAll(".menu a").forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                burger.classList.remove("active");
+                menu.classList.remove("active");
+
+            });
+
+        });
+
+    }
+
+});
+
+
 //==========================
 // PROJECT MODAL
 //==========================
@@ -49,24 +82,7 @@ modal.classList.remove("active");
 }
 
 }
-//==============================
-// BURGER MENU
-//==============================
 
-const burger=document.querySelector(".burger");
-const menu=document.querySelector(".menu");
-
-if(burger){
-
-burger.onclick=()=>{
-
-burger.classList.toggle("active");
-
-menu.classList.toggle("active");
-
-}
-
-}
 
 //==============================
 // HEADER
